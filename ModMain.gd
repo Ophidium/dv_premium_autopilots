@@ -3,7 +3,7 @@ extends Node
 # Mods are loaded from lowest to highest priority, default is 0
 const MOD_PRIORITY = 0
 # Name of the mod, used for writing to the logs
-const MOD_NAME = "LIDAR Autopilot"
+const MOD_NAME = "Premium Autopilot"
 const MOD_VERSION = "1.0.1"
 # Path of the mod folder, automatically generated on runtime
 var modPath:String = get_script().resource_path.get_base_dir() + "/"
