@@ -1,0 +1,83 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://enceladus/SystemShipUpgradeUI.tscn" type="PackedScene" id=1]
+[ext_resource path="res://enceladus/Upgrades.tscn" type="PackedScene" id=2]
+
+[sub_resource type="ViewportTexture" id=1]
+flags = 5
+viewport_path = NodePath("VB/WindowMargin/TabHintContainer/Window/UPGRADE_SIMULATION/VP/Contain1/Viewport")
+
+[sub_resource type="ViewportTexture" id=2]
+viewport_path = NodePath("VB/WindowMargin/TabHintContainer/Window/UPGRADE_SIMULATION/VP/Contain2/Control")
+
+[node name="Upgrades" instance=ExtResource( 2 )]
+
+[node name="TextureRect" parent="VB/WindowMargin/TabHintContainer/Window/UPGRADE_SIMULATION/VP" index="2"]
+texture = SubResource( 1 )
+
+[node name="ControlTexture" parent="VB/WindowMargin/TabHintContainer/Window/UPGRADE_SIMULATION/VP" index="3"]
+texture = SubResource( 2 )
+
+[node name="TextureRect2" parent="VB/WindowMargin/TabHintContainer/Window/UPGRADE_MANUAL/Sims" index="0"]
+texture = SubResource( 1 )
+
+[node name="ControlTexture2" parent="VB/WindowMargin/TabHintContainer/Window/UPGRADE_MANUAL/Sims" index="1"]
+texture = SubResource( 2 )
+
+[node name="MarginContainer" parent="VB/MarginContainer/ScrollContainer" index="0"]
+margin_bottom = 25860.0
+
+[node name="Items" parent="VB/MarginContainer/ScrollContainer/MarginContainer" index="0"]
+margin_bottom = 25860.0
+
+[node name="Autopilot" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="28"]
+margin_bottom = 24129.0
+
+[node name="VBoxContainer" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items/Autopilot" index="0"]
+margin_bottom = 571.0
+
+[node name="AutopilotLIDAR" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items/Autopilot/VBoxContainer" index="7" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 499.0
+margin_right = 1196.0
+margin_bottom = 569.0
+slot = "autopilot.type"
+system = "SYSTEM_AUTOPILOT_LIDAR"
+price = 50000
+testProtocol = "autopilot"
+
+[node name="Hud" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="29"]
+margin_top = 24133.0
+margin_bottom = 25002.0
+
+[node name="Lidar" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="30"]
+margin_top = 25006.0
+margin_bottom = 25505.0
+
+[node name="ReconDrone" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="31"]
+margin_top = 25509.0
+margin_bottom = 25860.0
+
+[editable path="VB/HeaderWithMoney"]
+[editable path="VB/WindowMargin/TabHintContainer"]
+[editable path="VB/WindowMargin/TabHintContainer/Window/UPGRADE_SIMULATION/MarginContainer/ShipParams"]
+[editable path="VB/WindowMargin/TabHintContainer/Window/UPGRADE_SIMULATION/MarginContainer/CargoHold/CargoHold"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/MainWeaponSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/MainLowWeaponSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/LeftHighStress"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/RightHighStress"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/LeftWeaponSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/MiddleLeftWeaponSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/RightWeaponSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/MiddleRightWeaponSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/LeftDroneSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/RightDroneSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/LeftRearSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/RightRearSlot"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/LeftBay1"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/RightBay1"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/LeftBay2"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/RightBay2"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/LeftBay3"]
+[editable path="VB/MarginContainer/ScrollContainer/MarginContainer/Items/RightBay3"]
