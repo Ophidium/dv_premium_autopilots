@@ -13,8 +13,8 @@ const TRANSLATIONS = {
 			"version_hash": 2324116565
 		},
 		"SYSTEM_AUTOPILOT_LIDAR_DESC": {
-			"string": "A modified variant of the ER-22 Autopilot, which lacks the trajectory prediction of the newer versions. It has been modified. This one coming with enhanced LiDAR Hud functions, for which it has earned the nickname 'LIDER autopilot'.",
-			"version_hash": 1645207186
+			"string": "A variant of the ER-22 Autopilot, which lacks the trajectory prediction of the newer versions. This one has been modified to come with enhanced LIDAR Hud functions, for which it has earned the nickname 'LIDER autopilot'.",
+			"version_hash": 1645573840
 		},
 		"SYSTEM_AUTOPILOT_LIDAR_SPECS": {
 			"string": "Developer: Electro Ride Systems \\nCapabilities: Adaptive Angular Thrust \\nFly-By-Wire \\nRotational Thrust Computation \\nAntipodal Reaction Limiter \\nLIDAR highlight\\nLIDAR overlay",
