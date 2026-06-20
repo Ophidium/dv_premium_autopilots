@@ -5,4 +5,4 @@ The mod adds a single autopilot that uses features of other autopilots in the ga
 
 For now it is essentially just the ER-42 autopilot but instead of prediction trajectory you get both the LIDAR highlight and overlay from the MLF and the MA-337 autopilots.
 
-Currently I have made two version, one dependent on HevLibs and one not.
+Currently I have made two version, one dependent on HevLibs and one not, check the releases for them.
