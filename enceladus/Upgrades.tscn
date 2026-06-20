@@ -44,7 +44,7 @@ margin_right = 1196.0
 margin_bottom = 569.0
 slot = "autopilot.type"
 system = "SYSTEM_AUTOPILOT_LIDAR"
-price = 50000
+price = 80000
 testProtocol = "autopilot"
 
 [node name="Hud" parent="VB/MarginContainer/ScrollContainer/MarginContainer/Items" index="29"]
