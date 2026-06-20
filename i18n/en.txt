@@ -2,7 +2,7 @@ locale|en
 
 SYSTEM_AUTOPILOT_LIDAR|'LID'ER-22 Autopilot
 
-SYSTEM_AUTOPILOT_LIDAR_DESC|A modified variant of the ER-22 Autopilot, which lacks the trajectory prediction of the newer versions. It has been modified. This one coming with enhanced LiDAR Hud functions, for which it has earned the nickname 'LIDER autopilot'.
+SYSTEM_AUTOPILOT_LIDAR_DESC|A variant of the ER-22 Autopilot, which lacks the trajectory prediction of the newer versions. This one has been modified to come with enhanced LIDAR Hud functions, for which it has earned the nickname 'LIDER autopilot'.
 
 SYSTEM_AUTOPILOT_LIDAR_SPECS|Developer: Electro Ride Systems \nCapabilities: Adaptive Angular Thrust \nFly-By-Wire \nRotational Thrust Computation \nAntipodal Reaction Limiter \nLIDAR highlight\nLIDAR overlay
 
