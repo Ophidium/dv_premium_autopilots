@@ -4,12 +4,14 @@ extends Node
 const MOD_PRIORITY = 0
 # Name of the mod, used for writing to the logs
 const MOD_NAME = "LIDAR Autopilot"
-const MOD_VERSION = "1.0.0"
+const MOD_VERSION = "1.0.1"
 # Path of the mod folder, automatically generated on runtime
 var modPath:String = get_script().resource_path.get_base_dir() + "/"
 # Required var for the replaceScene() func to work
 var _savedObjects := []
 var modConfig = {}
+
+
 #Initializes the configuration variable. Used by loadSettings.
 # Initialize the mod
 # This function is executed before the majority of the game is loaded
@@ -22,13 +24,10 @@ func _init(modLoader = ModLoader):
 	
 	l("Initializing")
 
-	updateTL("i18n/en.txt", "|")
+	# updateTL("i18n/en.txt", "|")
 
 	installScriptExtension("ships/ship-ctrl.gd")
-
 	installScriptExtension("hud/AutopilotOverlay.gd")
-
-	replaceScene("enceladus/Upgrades.tscn")
 
 	l("Initialized")
 

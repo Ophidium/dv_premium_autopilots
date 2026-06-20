@@ -1,9 +1,9 @@
 locale|en
 
-SYSTEM_AUTOPILOT_LIDAR|LIDAR Autopilot
+SYSTEM_AUTOPILOT_LIDAR|'LID'ER-22 Autopilot
 
-SYSTEM_AUTOPILOT_LIDAR_DESC|A modified variant of the ER-42 Autopilot, nicknamed the LIDAR Autopilot. It's trajectory prediction has been replaced for other Lidar functions, for a more clearer display.
+SYSTEM_AUTOPILOT_LIDAR_DESC|A modified variant of the ER-22 Autopilot, which lacks the trajectory prediction of the newer versions. It has been modified. This one coming with enhanced LiDAR Hud functions, for which it has earned the nickname 'LIDER autopilot'.
 
 SYSTEM_AUTOPILOT_LIDAR_SPECS|Developer: Electro Ride Systems \nCapabilities: Adaptive Angular Thrust \nFly-By-Wire \nRotational Thrust Computation \nAntipodal Reaction Limiter \nLIDAR highlight\nLIDAR overlay
 
-SYSTEM_AUTOPILOT_LIDAR_MANUAL|Highlights nearby ore and ships. \nDisplays LIDAR circle around your ship. \nDisplays firing solutions. n\ARL: Cancels out opposite thrusters, conserving fuel. \nAAT: Observes cargo mass shifts and thruster damage to compute the minimum thrust required for manoeuvre. \nRTC: Dynamically computes the most performant thrusters to perform any manoeuvre. \nFBW: Routes all manual thruster input through the autopilot. \nCan use gimbaled main drives efficiently.
+SYSTEM_AUTOPILOT_LIDAR_MANUAL|Highlights nearby ore and ships. \nDisplays LIDAR circle around your ship. \nARL: Cancels out opposite thrusters, conserving fuel. \nAAT: Observes cargo mass shifts and thruster damage to compute the minimum thrust required for manoeuvre. \nRTC: Dynamically computes the most performant thrusters to perform any manoeuvre. \nFBW: Routes all manual thruster input through the autopilot. \nCan use gimbaled main drives efficiently.
